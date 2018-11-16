@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'GothamRounded-Bold';
+  src: local('GothamRounded-Bold'), url(./../assets/fonts/GothamRounded-Bold.otf) format('woff');
+}
+
+@font-face {
+  font-family: 'GothamRounded-Light';
+  src: local('GothamRounded-Light'), url(./../assets/fonts/GothamRounded-Book.otf) format('woff');
+}
+
+.App {
+  text-align: center;
+}
+
+.bold {
+  font-family: 'GothamRounded-Bold';
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+.light {
+  font-family: 'GothamRounded-Light';
+}
+
+html,body {
+  height:100%;
+  width:100%;
+  margin:0;
+}
+body {
+  background-color:#303853;
+  background-image:linear-gradient(to bottom, rgba(48,56,83,0) 60%, #303853 80%, #303853 100%),url(https://static.teamtreehouse.com/assets/views/marketing/home/homepage-hero-6b54d9398fb6767e848cfcb92bce53b465c49d29a5c990e11483e42c797c121d.png);
+  display: inline-block;
+  
+  background-position-x: 100%, 100%;
+  background-position-y: 0px, -200px;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #303853;
+  background-attachment: fixed, fixed;
+  font-family: "GothamRounded-Light";
+  -webkit-font-smoothing: antialiased;
+  font-size:16px;
+}
